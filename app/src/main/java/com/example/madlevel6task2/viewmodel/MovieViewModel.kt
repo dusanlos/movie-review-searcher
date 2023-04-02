@@ -30,20 +30,8 @@ class MovieViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    fun clearSearchResults() {
-        _searchResultsResource.value = Resource.Empty()
-    }
-
-    fun setSearchResults(searchResults: Resource<MovieSearchResult>) {
-        _searchResultsResource.value = searchResults
-    }
-
     fun setSelectedMovie(movie: Movie) {
         selectedMovie = movie
-    }
-
-    fun clearSelectedMovie() {
-        selectedMovie = null
     }
 
 
