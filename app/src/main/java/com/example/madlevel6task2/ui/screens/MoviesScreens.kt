@@ -1,4 +1,4 @@
-package com.example.madlevel6task2.ui
+package com.example.madlevel6task2.ui.screens
 
 import androidx.annotation.StringRes
 import com.example.madlevel6task2.R
