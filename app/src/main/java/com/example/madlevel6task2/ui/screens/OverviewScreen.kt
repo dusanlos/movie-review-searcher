@@ -179,7 +179,7 @@ fun MovieListItem(
                 is AsyncImagePainter.State.Loading -> {
                     CircularProgressIndicator(
                         modifier = Modifier.align(Alignment.Center)
-                    )
+                )
                 }
                 else -> {
                 }
